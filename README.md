@@ -1,8 +1,8 @@
-Azure Verificador de Docs
+#Azure Verificador de Docs
 
 Este projeto permite que o usuário faça upload de imagens para o Azure Blob Storage, encapsuladas em um conteiner, e realize a validação de informações relacionadas a um cartão de crédito. Ele utiliza o framework Streamlit para criar uma interface web simples e interativa.
 
-Funcionalidades
+##Funcionalidades
 
 Upload de Arquivos
 Envia o arquivo para o Azure Blob Storage.
@@ -11,20 +11,15 @@ Validação de Cartão de Crédito:
 Mostra se os dados do cartão são válidos ou inválidos.
 Exibe informações como nome do titular, banco emissor e data de validade (se disponíveis).
 
-Tecnologias Utilizadas
+##Tecnologias Utilizadas
 
 Python
 Streamlit
 Azure Blob Storage
 
-Requisitos de Instalação
 
-Adicione as dependências ao arquivo requirements.txt:
 
-streamlit
-azure-storage-blob
-
-Como Executar
+##Como Executar
 
 Execute o seguinte comando no terminal para iniciar o aplicativo Streamlit:
 
@@ -32,18 +27,18 @@ streamlit run app.py
 
 Acesse o aplicativo no navegador através do link fornecido pelo Streamlit.
 
-Como Configurar o Azure Blob Storage
+##Como Configurar o Azure Blob Storage
 
 Crie uma conta de armazenamento no Azure.
 
 Configure um container para armazenar as imagens enviadas.
 
-Atualize o arquivo blob_service.py com suas credenciais e configurações:
+Atualize a aplicação com suas credenciais e configurações:
 
-Nome da conta
+ Nome da conta
 
-Chave da conta
+ Chave da conta
 
-URL do container
+ URL do container
 
 
