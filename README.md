@@ -1,4 +1,4 @@
-#Azure Verificador de Docs
+# Azure Verificador de Docs
 
 Este projeto permite que o usuário faça upload de imagens para o Azure Blob Storage, encapsuladas em um conteiner, e realize a validação de informações relacionadas a um cartão de crédito. Ele utiliza o framework Streamlit para criar uma interface web simples e interativa.
 
